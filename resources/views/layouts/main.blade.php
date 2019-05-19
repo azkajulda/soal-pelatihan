@@ -7,7 +7,8 @@
     <link rel="icon" type="image/png" href="{{asset('img/favicon.png')}}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>
-        Material Dashboard by Creative Tim
+        Training Beta + @yield('title')
+
     </title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
           name='viewport'/>
@@ -43,6 +44,18 @@
                         <p>Home</p>
                     </a>
                 </li>
+                <li class="nav-item <?php if ($page == "training") {echo "active";}?> ">
+                    <a class="nav-link" href="{{route('training')}}">
+                        <i class="material-icons">library_books</i>
+                        <p>Training</p>
+                    </a>
+                </li>
+                <li class="nav-item <?php if ($page == "score") {echo "active";}?> ">
+                    <a class="nav-link" href="{{route('score')}}">
+                        <i class="material-icons">content_paste</i>
+                        <p>Score</p>
+                    </a>
+                </li>
                 <li class="nav-item <?php if ($page == "profile") {echo "active";}?> ">
                     <a class="nav-link" href="{{route('profile')}}">
                         <i class="material-icons">person</i>
@@ -50,19 +63,7 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="./typography.html">
-                        <i class="material-icons">library_books</i>
-                        <p>Training</p>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./tables.html">
-                        <i class="material-icons">content_paste</i>
-                        <p>Score</p>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./icons.html">
+                    <a class="nav-link" href="{{route('logout')}}">
                         <i class="material-icons">exit_to_app</i>
                         <p>Logout</p>
                     </a>
@@ -153,12 +154,10 @@
                     </ul>
                 </nav>
                 <div class="copyright float-right">
-                    &copy;
+                    &copy; by Safira and Karin
                     <script>
                         document.write(new Date().getFullYear())
                     </script>
-                    , made with <i class="material-icons">favorite</i> by
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
                 </div>
             </div>
         </footer>

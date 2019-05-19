@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+    | Home
+@endsection
 @section('content')
     <div class="content">
         <nav aria-label="breadcrumb" role="navigation">

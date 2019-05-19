@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+    | Profile
+@endsection
 @section('content')
     <div class="content">
         <div class="container-fluid">

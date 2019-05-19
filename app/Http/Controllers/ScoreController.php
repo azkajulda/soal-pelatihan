@@ -4,16 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProfileController extends Controller
+class ScoreController extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth');
     }
 
-    public function showProfile()
+    public function showScore()
     {
-        $page  = "profile";
-        return view('user.profilePage', compact("page"));
+        $page  = "score";
+        return view('user.scorePage', compact("page"));
     }
 }
