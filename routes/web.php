@@ -29,5 +29,14 @@ Route::get('/profile', 'ProfileController@showProfile')->name('profile');
 Route::get('/score', 'ScoreController@showScore')->name('score');
 
 //training
-Route::get('/training', 'TrainingController@showTraining')->name('training');
+Route::group(['prefix' => 'training'], function() {
+    Route::get('/', 'TrainingController@showTraining')->name('training');
+    Route::post('/addTraining', 'TrainingController@addTraining')->name('addTraining');
+});
+
+//Quiz
+Route::group(['prefix' => 'quiz'], function() {
+    Route::get('/{id}', 'QuizController@showQuiz')->name('quiz');
+});
+
 
