@@ -31,7 +31,11 @@ Route::get('/score', 'ScoreController@showScore')->name('score');
 //training
 Route::group(['prefix' => 'training'], function() {
     Route::get('/', 'TrainingController@showTraining')->name('training');
+    Route::get('/deleteTraining/{id}', 'TrainingController@deleteTraining')->name('deleteTraining');
+    Route::get('/getDataTraining/{id}', 'TrainingController@getDataTraining')->name('getDataTraining');
     Route::post('/addTraining', 'TrainingController@addTraining')->name('addTraining');
+    Route::post('/updateTraining/{id}', 'TrainingController@updateTraining')->name('updateTraining');
+
 });
 
 //Quiz

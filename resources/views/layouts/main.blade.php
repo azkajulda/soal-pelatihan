@@ -210,6 +210,7 @@
 <!--   Core JS Files   -->
 <script src="{{asset('js/core/jquery.min.js')}}"></script>
 <script src="{{asset('js/core/popper.min.js')}}"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="{{asset('js/core/bootstrap-material-design.min.js')}}"></script>
 <script src="{{asset('js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
 <!-- Plugin for the momentJs  -->

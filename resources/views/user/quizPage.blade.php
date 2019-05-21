@@ -51,7 +51,7 @@
             {{--//if Admin--}}
             @if(Auth::user()->level == 1)
                 <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#addTraining">
-                    <i class="material-icons">add</i> Add Training
+                    <i class="material-icons">add</i> Add Quizzes
                 </button>
                 <div class="row">
                     @foreach($quiz as $quizzes)
