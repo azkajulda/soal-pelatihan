@@ -23,8 +23,13 @@ Route::get('/logout','Auth\LoginController@logout')->name('logout');
 Route::get('/home', 'HomeController@showHome')->name('home');
 
 //profile
-Route::get('/profile', 'ProfileController@showProfile')->name('profile');
+Route::group(['prefix' => 'profile'], function() {
+    Route::get('/', 'ProfileController@showMyProfile')->name('profile');
+    Route::get('/myProfile', 'ProfileController@showProfile')->name('showProfile');
+    Route::post('/addProfile', 'ProfileController@addProfile')->name('addProfile');
 
+    Route::get('/edit', 'ProfileController@editMyProfile')->name('editMyProfile');
+});
 //score
 Route::get('/score', 'ScoreController@showScore')->name('score');
 

@@ -207,6 +207,44 @@
         </ul>
     </div>
 </div>
+
+{{--Modal Add Training--}}
+<div class="modal fade" id="addTraining" tabindex="-1" role="dialog" aria-labelledby="addTrainingLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Training</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="POST" action="{{route('addTraining')}}">
+                @csrf
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Training Name" name="training_name">
+                    </div>
+                    @if ($errors->has('training_name'))
+                        <p style="color:#dc3545;font-size:15px;">{{ $errors->first('training_name') }}</p>
+                    @endif
+                    <div class="form-group" style="margin-top: 25px;">
+                        <label for="Training Description">Training Description</label>
+                        <textarea class="form-control" id="Training Description" rows="3"
+                                  name="training_description"></textarea>
+                    </div>
+                    @if ($errors->has('training_description'))
+                        <p style="color:#dc3545;font-size:15px;">{{ $errors->first('training_description') }}</p>
+                    @endif
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <!--   Core JS Files   -->
 <script src="{{asset('js/core/jquery.min.js')}}"></script>
 <script src="{{asset('js/core/popper.min.js')}}"></script>
