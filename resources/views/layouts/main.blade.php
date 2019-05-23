@@ -59,9 +59,17 @@
                 <li class="nav-item <?php if ($page == "profile") {echo "active";}?> ">
                     <a class="nav-link" href="{{route('profile')}}">
                         <i class="material-icons">person</i>
-                        <p>User Profile</p>
+                        <p>Profile</p>
                     </a>
                 </li>
+                @if(Auth::user()->level == 1)
+                    <li class="nav-item <?php if ($page == "manage") {echo "active";}?> ">
+                        <a class="nav-link" href="{{route('manageUser')}}">
+                            <i class="material-icons">people</i>
+                            <p>Manage User</p>
+                        </a>
+                    </li>
+                @endif
                 <li class="nav-item ">
                     <a class="nav-link" href="{{route('logout')}}">
                         <i class="material-icons">exit_to_app</i>

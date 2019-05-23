@@ -55,7 +55,20 @@
 
         <div class="container-fluid">
             {{--//if Admin--}}
-            @if(Auth::user()->level == 1)
+            @if(Auth::user()->level == 0)
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header card-header-tabs card-header-danger">
+                                Information
+                            </div>
+                            <div class="card-body">
+                                To activate this feature please contact the admin !
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @elseif(Auth::user()->level == 1)
                 <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#addTraining">
                     <i class="material-icons">add</i> Add Training
                 </button>
@@ -103,7 +116,7 @@
                     @endforeach
                 </div>
                 {{--If user--}}
-            @elseif(Auth::user()->level == 0)
+            @elseif(Auth::user()->level == 2)
                 <div class="row">
                     @foreach($training as $trainings)
                         <div class="col-md-4">

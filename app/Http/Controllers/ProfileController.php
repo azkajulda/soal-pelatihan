@@ -73,10 +73,4 @@ class ProfileController extends Controller
 
     }
 
-    public function editMyProfile(){
-        $page = "profile";
-        $user = Auth::user();
-        $profile = Profile::where('user_id',$user->id)->get();
-        dd($profile);
-    }
 }
