@@ -19,12 +19,13 @@ class CreateQuizQuestionsTable extends Migration
             $table->foreign('quiz_id')->references('id')->on('quizzes')
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
-            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('user_id')->nullable();
             $table->foreign('user_id')->references('id')->on('users')
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
             $table->string('question');
-            $table->string('answer');
+            $table->integer('time');
+            $table->tinyInteger('status')->nullable();
             $table->timestamps();
         });
     }

@@ -66,7 +66,7 @@
                                             {{$users->level}}
                                         </td>
                                         <td>
-                                            <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#editAccess">
+                                            <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#editAccess_{{$users->id}}">
                                                 <i class="material-icons">edit</i> Edit Access
                                             </button>
                                         </td>
@@ -104,7 +104,7 @@
 
     @foreach($user as $users)
     {{--Modal Add Training--}}
-    <div class="modal fade" id="editAccess" tabindex="-1" role="dialog" aria-labelledby="editAccessLabel"
+    <div class="modal fade" id="editAccess_{{$users->id}}" tabindex="-1" role="dialog" aria-labelledby="editAccessLabel"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -118,11 +118,17 @@
                     @csrf
                     <div class="modal-body">
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Level" name="level">
+                            <h6 class="card-subtitle mb-2 text-muted">Level</h6>
+                            <select id="inputActivity" class="form-control" name="level">
+                                <option value="" selected>Choose...</option>
+                                <option value="0">0 - user has not been activated / Blocked</option>
+                                <option value="1">1 - Admin</option>
+                                <option value="2">2 - user has been activated</option>
+                            </select>
+                            @if ($errors->has('level'))
+                                <p style="color:#dc3545;font-size:15px;">{{ $errors->first('level') }}</p>
+                            @endif
                         </div>
-                        @if ($errors->has('level'))
-                            <p style="color:#dc3545;font-size:15px;">{{ $errors->first('level') }}</p>
-                        @endif
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

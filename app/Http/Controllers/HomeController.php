@@ -44,7 +44,6 @@ class HomeController extends Controller
         ]);
 
         $user = User::findOrFail($id);
-        dd($validate);
 
         try{
             $user->level = $request->level;

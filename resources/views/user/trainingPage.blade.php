@@ -122,13 +122,14 @@
                         <div class="col-md-4">
                             <div class="card card-chart">
                                 <a href="{{route('quiz',$trainings->id)}}">
-                                    <div class="card-header card-header-rose" style="height: 150px;"></div>
+                                    <div class="card-header card-header-rose" data-header-animation="true"
+                                         style="height: 150px;"></div>
                                 </a>
                                 <div class="card-body">
                                     <a href="#">
                                         <h4 class="card-title">{{$trainings->training_name}}</h4>
                                     </a>
-                                    <p class="card-category">{{substr($trainings->training_description,0,25)."..."}}</p>
+                                    <p class="card-category">{{substr($trainings->training_description,0,40)."..."}}</p>
                                 </div>
                                 <div class="card-footer">
                                     <div class="stats">

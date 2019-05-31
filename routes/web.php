@@ -48,6 +48,7 @@ Route::group(['prefix' => 'training'], function() {
 //Quiz
 Route::group(['prefix' => 'quiz'], function() {
     Route::get('/{id}', 'QuizController@showQuiz')->name('quiz');
+    Route::post('/quizzes/{id}','QuizController@addQuizzes')->name('addQuizzes');
 });
 
 
