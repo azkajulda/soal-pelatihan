@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Quiz;
 use App\Quiz_question;
+use App\Training;
 use Illuminate\Http\Request;
 
 class QuizController extends Controller
@@ -12,8 +13,9 @@ class QuizController extends Controller
     {
         $page  = "training";
         $quiz = Quiz::where('training_id',$id)->get();
+        $trainings = Training::where('id',$id)->get();
 
-        return view('user.quizPage', compact("quiz","page"));
+        return view('user.quizPage', compact("quiz","page", "trainings"));
     }
 
     public function addQuizzes(Request $request, $id)
@@ -35,12 +37,12 @@ class QuizController extends Controller
             $quiz->quiz_name = $request->quiz_name;
             $quiz->quiz_description = $request->quiz_description;
             $quiz->difficulty = $request->difficulty;
-
+            $quiz->save();
 
             $question->quiz_id = $quiz->id;
 
             $file = $request->file('question');
-            dd($file);
+
             if(!$file){
                 return redirect()->route("quiz",$id)->with('alert','Data must be filled');
             }
@@ -52,7 +54,6 @@ class QuizController extends Controller
             $question->time = $request->time;
 
             $question->save();
-            $quiz->save();
 
         }catch (\Exception $exception)
         {
@@ -60,5 +61,14 @@ class QuizController extends Controller
 //            return redirect()->route("quiz",$id)->with('alert', "Sorry there was an error on the server, please try again soon.");
         }
         return redirect()->route("quiz",$id)->with('success', "Data Saved.");
+    }
+
+    //quiz question
+
+    public function showQuestion($id){
+        $page  = "training";
+        $question = Quiz_question::where('id',$id)->get();
+
+        return view('user.quizQuestionPage', compact('page','question'));
     }
 }

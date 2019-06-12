@@ -47,6 +47,21 @@
             </ol>
         </nav>
 
+        {{--Training Description--}}
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header card-header-text card-header-primary">
+                    <div class="card-text">
+                        <h4 class="card-title">{{$trainings[0]->training_name}}</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {{$trainings[0]->training_description}}
+                </div>
+            </div>
+        </div>
+        {{--Training Description--}}
+
         <div class="container-fluid">
             {{--//if Admin--}}
             @if(Auth::user()->level == 0)
@@ -171,7 +186,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <form method="POST" action="{{route('addQuizzes',Request::segment(2))}}">
+                <form method="POST" action="{{route('addQuizzes',Request::segment(2))}}" enctype="multipart/form-data">
                     @csrf
                     <div class="modal-body">
                         <h3>Quiz</h3>
@@ -219,15 +234,6 @@
                                 @endif
                             </span>
                         </div>
-                        {{--<div style="text-align: center">--}}
-                            {{--<span class="btn btn-raised btn-round btn-default btn-file" style="width: 100%">--}}
-                                {{--<span class="fileinput-new">Select Question Pdf</span>--}}
-                                {{--<input type="file" name="question" id="photo" />--}}
-                                {{--@if ($errors->has('question'))--}}
-                                    {{--<p style="color:#dc3545;font-size:15px;">{{ $errors->first('question') }}</p>--}}
-                                {{--@endif--}}
-                            {{--</span>--}}
-                        {{--</div>--}}
                         @if ($errors->has('question'))
                             <p style="color:#dc3545;font-size:15px;">{{ $errors->first('question') }}</p>
                         @endif

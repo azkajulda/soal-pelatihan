@@ -49,7 +49,7 @@
                                             {{$profile[0]->gender}}
                                         </div>
                                     </div>
-                                    <a href="#pablo" class="btn btn-primary btn-round">Follow</a>
+                                    <a href="#pablo" class="btn btn-primary btn-round">Edit</a>
                                 </div>
                             </div>
                         </div>

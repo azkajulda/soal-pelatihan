@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a59fd53b-7377-481e-8d33-84e01fb906ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_115022_create_trainings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_115022_create_trainings_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_115134_create_quizzes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_115134_create_quizzes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_16_115158_create_quiz_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_16_115158_create_quiz_questions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/quizPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/quizPage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/trainingPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/trainingPage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,41 +24,44 @@
     <session id="-257306624">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.32" value="3" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="env" value="2" />
+          <entry key="env" value="3" />
           <entry key="html" value="7" />
           <entry key="jpg" value="4" />
           <entry key="js" value="2" />
           <entry key="map" value="2" />
-          <entry key="php" value="120" />
+          <entry key="php" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="2" />
-          <entry key="Blade" value="43" />
+          <entry key=".env file" value="3" />
+          <entry key="Blade" value="45" />
           <entry key="CSS" value="3" />
           <entry key="HTML" value="7" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="77" />
+          <entry key="PHP" value="80" />
           <entry key="SourceMap" value="2" />
         </counts>
       </usages-collector>
@@ -72,15 +69,15 @@
         <counts>
           <entry key="env" value="5" />
           <entry key="html" value="40" />
-          <entry key="php" value="7467" />
+          <entry key="php" value="7802" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="5" />
-          <entry key="Blade" value="3549" />
+          <entry key="Blade" value="3685" />
           <entry key="HTML" value="40" />
-          <entry key="PHP" value="3918" />
+          <entry key="PHP" value="4117" />
         </counts>
       </usages-collector>
     </session>
@@ -88,28 +85,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_115158_create_quiz_questions_table.php">
+        <entry file="file://$PROJECT_DIR$/app/Quiz_question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuizController.php">
+        <entry file="file://$PROJECT_DIR$/app/Quiz.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -117,17 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/user/profilePage.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="107" selection-end-column="42" />
+            <state relative-caret-position="578">
+              <caret line="34" column="109" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="109" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="116" column="21" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="21" />
+            <state relative-caret-position="867">
+              <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -136,19 +124,7 @@
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_115022_create_trainings_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/trainingPage.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="131" column="107" selection-start-line="131" selection-start-column="107" selection-end-line="131" selection-end-column="107" />
-              <folding>
-                <element signature="e#3439#6047#0#HTML" />
-              </folding>
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -156,30 +132,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/user/quizPage.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="217" column="104" selection-start-line="217" selection-start-column="104" selection-end-line="217" selection-end-column="104" />
-              <folding>
-                <element signature="e#0#8667#0#Blade" />
-                <element signature="e#0#8667#0#Blade" />
-                <element signature="e#0#8667#0#Blade" />
-                <element signature="e#0#8667#0#Blade" />
-                <element signature="e#1706#2064#0#HTML" />
-                <element signature="e#5350#6539#0#HTML" />
-                <element signature="e#5644#5666#0#HTML" expanded="true" />
-                <element signature="e#3477#3657#0#HTML" />
-                <element signature="e#3674#6585#0#HTML" />
-                <element signature="e#9508#9515#1#HTML" expanded="true" />
-                <element signature="e#11745#11782#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="49" column="62" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="62" />
+            <state relative-caret-position="323">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -222,9 +203,10 @@
       <find>Table on Plain Background</find>
       <find>edit acc</find>
       <find>25</find>
-      <find>form</find>
       <find>file</find>
       <find>photo</find>
+      <find>follow</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace>{{asset('assets</replace>
@@ -259,7 +241,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/TrainingController.php" />
         <option value="$PROJECT_DIR$/resources/views/user/myprofile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/profilePage.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/app/Profile.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
@@ -274,9 +255,11 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_05_16_115134_create_quizzes_table.php" />
         <option value="$PROJECT_DIR$/resources/views/user/trainingPage.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_16_115158_create_quiz_questions_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/quizPage.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/quizPage.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" />
       </list>
     </option>
   </component>
@@ -400,89 +383,6 @@
             <path>
               <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
               <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="passwords" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -495,9 +395,10 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="quiz&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/app/Http/Controllers/QuizController.php&#10;Home&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/app/Http/Controllers/HomeController.php&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/routes/web.php&#10;training&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/app/Http/Controllers/TrainingController.php&#10;trainin&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/app/Training.php&#10;home&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/app/Http/Controllers/HomeController.php&#10;tra&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/app/Http/Controllers/TrainingController.php&#10;trainingC&#9;null&#9;null&#10;WEB&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/routes/web.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/Project/soal-latihan/routes/web.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../halflsm" />
+    <property name="last_opened_file_path" value="E:/Magang/invisee-customer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -545,18 +446,23 @@
       <workItem from="1558912306891" duration="5757000" />
       <workItem from="1558924758567" duration="234000" />
       <workItem from="1559171051770" duration="2035000" />
-      <workItem from="1559254716375" duration="20219000" />
+      <workItem from="1559254716375" duration="20393000" />
+      <workItem from="1559292360762" duration="1000" />
+      <workItem from="1559953503195" duration="347000" />
+      <workItem from="1560128354074" duration="7193000" />
+      <workItem from="1560220963801" duration="2740000" />
+      <workItem from="1560235238823" duration="694000" />
+      <workItem from="1560243461125" duration="1831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150517000" />
+    <option name="totallyTimeSpent" value="163497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.301059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -569,7 +475,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4977307" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4977307" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -584,13 +490,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -630,10 +529,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/material-dashboard.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2652" />
       </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/material-dashboard.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,24 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Quiz_question.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrainingController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="67" column="125" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -746,24 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Quiz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Training.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -812,55 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/initialPage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="49" column="62" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_115134_create_quizzes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_115022_create_trainings_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/trainingPage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="131" column="107" selection-start-line="131" selection-start-column="107" selection-end-line="131" selection-end-column="107" />
-          <folding>
-            <element signature="e#3439#6047#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="116" column="21" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -871,44 +697,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/profilePage.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="107" selection-end-column="42" />
+        <state relative-caret-position="748">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/quizPage.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="217" column="104" selection-start-line="217" selection-start-column="104" selection-end-line="217" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#8667#0#Blade" />
-            <element signature="e#0#8667#0#Blade" />
-            <element signature="e#0#8667#0#Blade" />
-            <element signature="e#0#8667#0#Blade" />
-            <element signature="e#1706#2064#0#HTML" />
-            <element signature="e#5350#6539#0#HTML" />
-            <element signature="e#5644#5666#0#HTML" expanded="true" />
-            <element signature="e#3477#3657#0#HTML" />
-            <element signature="e#3674#6585#0#HTML" />
-            <element signature="e#9508#9515#1#HTML" expanded="true" />
-            <element signature="e#11745#11782#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="1972">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/trainingPage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="107" selection-start-line="131" selection-start-column="107" selection-end-line="131" selection-end-column="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuizController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="1156">
+          <caret line="71" column="73" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Quiz_question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/profilePage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="109" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_115022_create_trainings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_16_115134_create_quizzes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/quizPage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
