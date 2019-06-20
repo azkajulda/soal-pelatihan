@@ -4,7 +4,7 @@
     <div class="materialContainer">
         <div class="box">
             <div class="title">LOGIN</div>
-            <form method="POST" action="{{ route('login') }}">
+                <form method="POST" action="{{ route('login') }}">
                 @csrf
                 <div class="input">
                     <label for="name">NIK</label>

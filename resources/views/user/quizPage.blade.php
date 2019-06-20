@@ -66,26 +66,16 @@
             {{--//if Admin--}}
             @if(Auth::user()->level == 0)
                 <div class="row">
-                    @foreach($quiz as $quizzes)
-                        <div class="col-md-4">
-                            <div class="card card-chart">
-                                <a href="#">
-                                    <div class="card-header card-header-rose" style="height: 150px;"></div>
-                                </a>
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4 class="card-title">{{$quizzes->quiz_name}}</h4>
-                                    </a>
-                                    <p class="card-category">{{substr($quizzes->quiz_description,0,25)."..."}}</p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="stats">
-                                        <i class="material-icons">access_time</i> created at : {{$quizzes->created_at}}
-                                    </div>
-                                </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header card-header-tabs card-header-danger">
+                                Information
+                            </div>
+                            <div class="card-body">
+                                To activate this feature please contact the admin !
                             </div>
                         </div>
-                    @endforeach
+                    </div>
                 </div>
             {{--If user has not been activated--}}
             @elseif(Auth::user()->level == 1)
@@ -97,15 +87,15 @@
                         <div class="col-md-4">
                             <div class="card card-chart">
                                 @if($quizzes->difficulty == 'Easy')
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <div class="card-header card-header-success" data-header-animation="true" style="height: 150px;">{{$quizzes->difficulty}}</div>
                                     </a>
                                 @elseif($quizzes->difficulty == 'Medium')
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <div class="card-header card-header-warning" data-header-animation="true" style="height: 150px;">{{$quizzes->difficulty}}</div>
                                     </a>
                                 @elseif($quizzes->difficulty == 'Hard')
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <div class="card-header card-header-danger" data-header-animation="true" style="height: 150px;">{{$quizzes->difficulty}}</div>
                                     </a>
                                 @endif
@@ -122,7 +112,7 @@
                                             <i class="material-icons">edit</i>
                                         </button>
                                     </div>
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <h4 class="card-title">{{$quizzes->quiz_name}}</h4>
                                     </a>
                                     <p class="card-category">{{substr($quizzes->quiz_description,0,25)."..."}}</p>
@@ -145,20 +135,20 @@
                         <div class="col-md-4">
                             <div class="card card-chart">
                                 @if($quizzes->difficulty == 'Easy')
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <div class="card-header card-header-success" data-header-animation="true" style="height: 150px;">{{$quizzes->difficulty}}</div>
                                     </a>
                                 @elseif($quizzes->difficulty == 'Medium')
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <div class="card-header card-header-warning" data-header-animation="true" style="height: 150px;">{{$quizzes->difficulty}}</div>
                                     </a>
                                 @elseif($quizzes->difficulty == 'Hard')
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <div class="card-header card-header-danger" data-header-animation="true" style="height: 150px;">{{$quizzes->difficulty}}</div>
                                     </a>
                                 @endif
                                 <div class="card-body">
-                                    <a href="#">
+                                    <a href="{{route('showQuizQuestion',$quizzes->id,'question')}}">
                                         <h4 class="card-title">{{$quizzes->quiz_name}}</h4>
                                     </a>
                                     <p class="card-category">{{substr($quizzes->quiz_description,0,40)."..."}}</p>

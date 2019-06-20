@@ -65,10 +65,12 @@ class QuizController extends Controller
 
     //quiz question
 
-    public function showQuestion($id){
+    public function showQuizQuestion($id){
         $page  = "training";
         $question = Quiz_question::where('id',$id)->get();
 
         return view('user.quizQuestionPage', compact('page','question'));
     }
+
+
 }
