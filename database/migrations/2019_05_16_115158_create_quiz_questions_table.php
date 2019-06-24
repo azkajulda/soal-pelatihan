@@ -24,6 +24,7 @@ class CreateQuizQuestionsTable extends Migration
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
             $table->string('question');
+            $table->tinyInteger('number_of_question');
             $table->integer('time');
             $table->tinyInteger('status')->nullable();
             $table->timestamps();

@@ -23,6 +23,7 @@ class QuizController extends Controller
         $validate = $request->validate([
             'quiz_name' => 'required',
             'quiz_description' => 'required',
+            'number_of_question' => 'required',
             'difficulty' => 'required',
             'question' => 'required',
             'time' => 'required',
@@ -51,6 +52,7 @@ class QuizController extends Controller
             $file->move($path, $file_name);
             $question->question = $file_name;
 
+            $question->number_of_question = $request->number_of_question;
             $question->time = $request->time;
 
             $question->save();
@@ -68,8 +70,9 @@ class QuizController extends Controller
     public function showQuizQuestion($id){
         $page  = "training";
         $question = Quiz_question::where('id',$id)->get();
+        $quiz = Quiz::where('id', $question[0]->quiz_id)->get();
 
-        return view('user.quizQuestionPage', compact('page','question'));
+        return view('user.quizQuestionPage', compact('page','question','quiz'));
     }
 
 

@@ -196,6 +196,13 @@
                         @endif
 
                         <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Number of question" name="number_of_question">
+                        </div>
+                        @if ($errors->has('number_of_question'))
+                            <p style="color:#dc3545;font-size:15px;">{{ $errors->first('number_of_question') }}</p>
+                        @endif
+
+                        <div class="form-group">
                             <h6 class="card-subtitle mb-2 text-muted">Difficulty</h6>
                             <select id="inputActivity" class="form-control" name="difficulty">
                                 <option value="" selected>Choose...</option>
