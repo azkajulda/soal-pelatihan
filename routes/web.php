@@ -50,6 +50,8 @@ Route::group(['prefix' => 'quiz'], function() {
     Route::get('/{id}', 'QuizController@showQuiz')->name('quiz');
     Route::get('/quizzes/{id}/question','QuizController@showQuizQuestion')->name('showQuizQuestion');
     Route::post('/quizzes/{id}','QuizController@addQuizzes')->name('addQuizzes');
+    Route::post('/quizzes/answers_keys/{id}','QuizController@addAnswersKeys')->name('addAnswersKeys');
+    Route::post('/quizzes/user_answers/{id}','QuizController@addUserAnswers')->name('addUserAnswers');
 });
 
 

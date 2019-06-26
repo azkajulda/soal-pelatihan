@@ -46,52 +46,64 @@
                         <h4>Kunci Jawaban Quiz : <u>{{$quizzes->quiz_name}}</u></h4>
                     </div>
                     @endforeach
-                    <form action="">
+                    @foreach($question as $questions)
+                    <form action="{{route('addAnswersKeys',$questions->id)}}" method="POST">
+                    @endforeach
+            @elseif(Auth::user()->level == 2)
+            <div class="col-md-5">
+                <div class="card">
+                    @foreach($quiz as $quizzes)
+                    <div class="card-header card-header-tabs card-header-primary">
+                        <h4>Lembar Jawaban Quiz : <u>{{$quizzes->quiz_name}}</u></h4>
+                    </div>
+                    @endforeach
+                    <form action="" method="">
+            @endif
+                    @csrf
                     <div class="card-body">
-                            @foreach($question as $questions)
-                            @for($i=1; $i <= $questions->number_of_question; $i++)
-                            <div class="col-md-12">
-                                <div class="form-check form-check-radio form-check-inline">
-                                    <label class="form-check-label">
-                                        {{$i}}.
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-radio form-check-inline">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="answer_keys[{{$i}}]" id="inlineRadio1" value="option1"> A
-                                        <span class="circle">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-radio form-check-inline">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="answer_keys[{{$i}}]" id="inlineRadio2" value="option2"> B
-                                        <span class="circle">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-radio form-check-inline">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="answer_keys[{{$i}}]" id="inlineRadio3" value="option3"> C
-                                        <span class="circle">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-radio form-check-inline">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="answer_keys[{{$i}}]" id="inlineRadio4" value="option4"> D
-                                        <span class="circle">
-                                            <span class="check"></span>
-                                        </span>
-                                    </label>
-                                </div>
+                        @foreach($question as $questions)
+                        @for($i=1; $i <= $questions->number_of_question; $i++)
+                        <div class="col-md-12">
+                            <div class="form-check form-check-radio form-check-inline">
+                                <label class="form-check-label">
+                                    {{$i}}.
+                                </label>
                             </div>
-                            @endfor
-                            @endforeach
-
+                            <div class="form-check form-check-radio form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="answer[{{$i}}]" id="inlineRadio1" value="A" checked> A
+                                    <span class="circle">
+                                        <span class="check"></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-radio form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="answer[{{$i}}]" id="inlineRadio2" value="B"> B
+                                    <span class="circle">
+                                        <span class="check"></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-radio form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="answer[{{$i}}]" id="inlineRadio3" value="C"> C
+                                    <span class="circle">
+                                        <span class="check"></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="form-check form-check-radio form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="answer[{{$i}}]" id="inlineRadio4" value="D"> D
+                                    <span class="circle">
+                                        <span class="check"></span>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        @endfor
+                        @endforeach
                     </div>
                     <center>
                         <button class="btn btn-success" type="submit">Submit</button>
@@ -100,6 +112,5 @@
                 </div>
             </div>
         </div>
-        @endif
     </div>
 @endsection

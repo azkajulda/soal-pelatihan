@@ -19,6 +19,7 @@ class CreateUserAnswersTable extends Migration
             $table->foreign('user_id')->references('id')->on('users')
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
+            $table->tinyInteger('no_answers');
             $table->string('user_answers');
             $table->timestamps();
         });

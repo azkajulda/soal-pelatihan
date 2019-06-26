@@ -19,6 +19,7 @@ class CreateAnswerKeysTable extends Migration
             $table->foreign('quiz_question_id')->references('id')->on('quiz_questions')
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
+            $table->tinyInteger('no_answers_keys');
             $table->string('answer_keys');
             $table->timestamps();
         });
