@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/resources/views/user/trainingPage.blade.php" line="104" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a59fd53b-7377-481e-8d33-84e01fb906ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Answer_key.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer_key.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_020539_create_user_answers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_020539_create_user_answers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_020624_create_answer_keys_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_020624_create_answer_keys_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="a59fd53b-7377-481e-8d33-84e01fb906ce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,54 +18,60 @@
     <session id="-257306624">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="5" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="4" />
+          <entry key="project.open.time.31" value="5" />
           <entry key="project.open.time.32" value="3" />
           <entry key="project.open.time.33" value="4" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="2" />
-          <entry key="project.open.time.37" value="3" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="4" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="3" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
           <entry key="env" value="3" />
-          <entry key="example" value="1" />
+          <entry key="example" value="2" />
           <entry key="html" value="7" />
           <entry key="jpg" value="4" />
           <entry key="js" value="4" />
           <entry key="map" value="2" />
-          <entry key="php" value="157" />
+          <entry key="php" value="173" />
           <entry key="rnc" value="1" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key=".env file" value="4" />
-          <entry key="Blade" value="58" />
+          <entry key=".env file" value="5" />
+          <entry key="Blade" value="67" />
           <entry key="CSS" value="3" />
           <entry key="HTML" value="7" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="99" />
+          <entry key="PHP" value="106" />
           <entry key="RNG Compact" value="1" />
           <entry key="SourceMap" value="2" />
           <entry key="Vue.js" value="1" />
@@ -83,95 +81,68 @@
         <counts>
           <entry key="env" value="5" />
           <entry key="html" value="40" />
-          <entry key="php" value="9533" />
+          <entry key="php" value="10243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="5" />
-          <entry key="Blade" value="4658" />
+          <entry key="Blade" value="4846" />
           <entry key="HTML" value="40" />
-          <entry key="PHP" value="4875" />
+          <entry key="PHP" value="5397" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="soal-latihan" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuizController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-              <folding>
-                <element signature="e#40#59#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Quiz_question.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Answer_key.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrainingController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="73" column="138" selection-start-line="73" selection-start-column="138" selection-end-line="73" selection-end-column="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/user/quizPage.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="89" column="52" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuizController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1309">
+                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.env.example">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/web.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="22" column="58" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="24">
+                  <caret line="67" column="42" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$trainings</find>
-      <find>btn_edit_</find>
-      <find>btn_edit</find>
-      <find>jq</find>
       <find>add</find>
       <find>jqu</find>
       <find>$profile</find>
@@ -198,6 +169,10 @@
       <find>example</find>
       <find>find</find>
       <find>route</find>
+      <find>A</find>
+      <find>no</find>
+      <find>id</find>
+      <find>$question</find>
     </findStrings>
     <replaceStrings>
       <replace>{{asset('assets</replace>
@@ -253,8 +228,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_05_27_020624_create_answer_keys_table.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Answer_key.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/AnswerKeysRequest.php" />
         <option value="$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QuizController.php" />
       </list>
     </option>
   </component>
@@ -363,6 +339,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,47 +352,10 @@
               <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soal-latihan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soal-latihan" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,16 +439,27 @@
       <workItem from="1561344651149" duration="3917000" />
       <workItem from="1561420618063" duration="603000" />
       <workItem from="1561429758853" duration="11909000" />
+      <workItem from="1561518050071" duration="5498000" />
+      <workItem from="1562108918731" duration="3004000" />
+      <workItem from="1562280161323" duration="2604000" />
+      <workItem from="1562405257401" duration="8192000" />
+      <workItem from="1562418138165" duration="347000" />
+      <workItem from="1563423189740" duration="133000" />
+      <workItem from="1565657627989" duration="8238000" />
+      <workItem from="1565869060312" duration="370000" />
+      <workItem from="1565966039842" duration="859000" />
+      <workItem from="1565996465946" duration="4725000" />
+      <workItem from="1566378349198" duration="278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208655000" />
+    <option name="totallyTimeSpent" value="242903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -521,7 +472,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4977307" visible="true" weight="0.23114754" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4977307" visible="true" weight="0.23114754" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50226927" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -536,27 +487,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/user/scorePage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/DLL/Theme Web/Dashboard/material-dashboard-master/examples/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="231" column="10" selection-start-line="231" selection-start-column="10" selection-end-line="281" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21453">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jquery.sparkline.js" />
     <entry file="file://$PROJECT_DIR$/public/js/jquery.min.map" />
     <entry file="file://$PROJECT_DIR$/public/img/faces/marc.jpg">
@@ -585,13 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/DLL/Theme Web/Dashboard/material-dashboard-master/examples/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="432" column="18" selection-start-line="298" selection-start-column="12" selection-end-line="432" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/DLL/Theme Web/Dashboard/material-dashboard-master/examples/tables.html" />
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -627,20 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="21" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Quiz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -683,20 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/profilePage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="93" selection-start-line="99" selection-start-column="89" selection-end-line="99" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="104" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="104" />
         </state>
       </provider>
     </entry>
@@ -763,9 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -783,9 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#35#47#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrainingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -810,24 +693,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/AnswerKeysRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="58" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/quizPage.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/scorePage.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/myProfilePage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="89" column="52" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="52" />
+        <state relative-caret-position="425">
+          <caret line="25" column="104" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="104" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Quiz_question.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/profilePage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="1581">
+          <caret line="93" column="92" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -838,20 +727,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuizController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrainingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-          <folding>
-            <element signature="e#40#59#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/quizPage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="52" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/manageUserPage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Quiz.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Quiz_question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuizController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/quizQuestionPage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="73" column="138" selection-start-line="73" selection-start-column="138" selection-end-line="73" selection-end-column="138" />
+        <state relative-caret-position="24">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="42" />
         </state>
       </provider>
     </entry>

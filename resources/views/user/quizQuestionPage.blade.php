@@ -60,6 +60,10 @@
                     <form action="" method="">
             @endif
                     @csrf
+                    @if (count($errors) > 0)
+                        <h6 style="color:#dc3545;font-size:15px;" class="text-center"><strong>Apakah Anda Yakin!</strong> Tolong isikan nomor yang masih kosong walaupun masih ragu-ragu</h6>
+                    @endif
+
                     <div class="card-body">
                         @foreach($question as $questions)
                         @for($i=1; $i <= $questions->number_of_question; $i++)
@@ -71,7 +75,7 @@
                             </div>
                             <div class="form-check form-check-radio form-check-inline">
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="answer[{{$i}}]" id="inlineRadio1" value="A" checked> A
+                                    <input class="form-check-input" type="radio" name="answer[{{$i}}]" id="inlineRadio1" value="A"> A
                                     <span class="circle">
                                         <span class="check"></span>
                                     </span>

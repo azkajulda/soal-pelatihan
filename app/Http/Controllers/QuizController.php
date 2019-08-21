@@ -77,21 +77,15 @@ class QuizController extends Controller
     }
 
     public function addAnswersKeys(Request $request, $id){
+
         $question = Quiz_question::where('id',$id)->get();
+
         try{
-            for ($i=1;$i<=$question[0]->number_of_question;$i++){
-                $answersKey[] = [
-                    'quiz_question_id' => $question[0]->id,
-                    'no_answers_keys' => $i,
-                    'answer_keys' => $request->answer[$i],
-                ];
-            }
-        Answer_key::insert($answersKey);
+
+
         }catch (\Exception $exception){
-            return dd($exception);
+//            return dd($answersKey);
         }
         return redirect()->route('home')->with('success', "Data Saved.");
     }
-
-
 }
